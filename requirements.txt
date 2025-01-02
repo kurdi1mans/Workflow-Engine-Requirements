@@ -1,0 +1,13 @@
+- The system must have a workflow engine.
+- The workflow engine consists of three parts
+	- Forms engine
+		- fields
+			- field can auto-populate from other records
+				- there has to be an option for specify if the auto-population is live, dead-on-arrival, or dead-on-condition
+		- view
+	- workflow engine
+		- definition of steps and actions
+		- definition of validations per action
+			- validations must be action specific. For example, if the selected action is to reject the record, there is no need to verify anything.
+		
+	- 
