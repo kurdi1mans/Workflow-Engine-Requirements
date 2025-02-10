@@ -1,0 +1,77 @@
+- Sheet // Contains all the available tables/lists/BPs/Sheets/Registers
+	- ID
+	- Name
+- Data_Type
+	- ID
+	- Name
+		- ULID
+		- UUID
+		- Link (references another sheet)
+		- Dropdown
+			- this is actually a link
+			- should it be a live-link or some other type??
+		- Multi-Select
+		- Radio-button
+		- Checkbox
+		- String
+		- Single-Line Text
+		- Progress Bars
+			- can be calculated
+			- can be set manually
+		- Rating
+			- 0 to 5 Stars
+		- Voting field
+		- Favorite field
+		- Bar Code
+		- QR Code
+		- Count
+		- Formula
+		- Folder Path
+			- Must allow for restricting to windows restrictions or any other specification
+		- Multi-Line Text
+		- Phone number (restricted String)
+		- Email (restricted String)
+		- Currency Amount
+		- URL
+		- Date
+			- Hijri
+			- Gregorian
+		- Integer
+			- can be restricted to specific range
+		- Decimal
+			- number of decimal places can be specified
+			- can be restriced to specific range
+		- Location
+		- Symbol (😂☠️⚠️⛔️🚫🔄)
+		- Image
+		- Thumbnail
+		- File
+		- Multiple Files
+		- Timestamp
+		- Duration
+		- Time Zone
+		- Auto-Sequence
+		- Contact
+		- Multi Contact
+		- Location
+		- Boolean
+		- List
+		- Set
+		- Rich-Text
+- Fields //
+	- ID
+	- Name
+	- Data_Type_ID
+- Link_Field
+	- ID // same as the field ID
+	- Source_Sheet_ID
+	- Type // Live, Dead-On-Arrival, Dead-By-Condition
+	- Conditions ??
+- Sheet-Field
+	- Sheet_ID
+	- Field_ID // a field can be used in multiple registers
+- Record
+	- ID
+- Record_Value
+	-
+- View

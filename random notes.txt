@@ -1,0 +1,9 @@
+- Some data types are just specific form of other data types.
++ For Example, phone number (+966-5-97756349) is a restricted type of String. The same applies to emails.
+
+- What other data types?
++ Video
++ File
++ Code
++ Image
++
