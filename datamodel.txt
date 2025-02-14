@@ -4,33 +4,45 @@
 - Data_Type
 	- ID
 	- Name
-		- ULID
-		- UUID
+		- Auto ULID
+		- Auto UUID
 		- Link (references another sheet)
-		- Dropdown
+		- Simple Dropdown
 			- this is actually a link
 			- should it be a live-link or some other type??
+		- Picker Dropdown
+			- Simple list showing a popup table
+			- Advanced picker shows full table
 		- Multi-Select
+		- Lookup
+			- fetch details from other registers as per other fields in the record
+			- kind of an automated link
 		- Radio-button
 		- Checkbox
-		- String
-		- Single-Line Text
+		- Single-Line Free Text
+		- Regex-based Single-Line Text
+			- Phone number (restricted String)
+			- Email (restricted String)
+		- Multi-Line Text
 		- Progress Bars
 			- can be calculated
 			- can be set manually
+		- Color-Scaled Numerical Field
 		- Rating
 			- 0 to 5 Stars
 		- Voting field
 		- Favorite field
+		- Like Field
+		- Single Emoji Reaction Field
 		- Bar Code
 		- QR Code
 		- Count
+		- Parent_Record
+			- Links a record to another record to allow for a tree structure
 		- Formula
+			- What ??
 		- Folder Path
 			- Must allow for restricting to windows restrictions or any other specification
-		- Multi-Line Text
-		- Phone number (restricted String)
-		- Email (restricted String)
 		- Currency Amount
 		- URL
 		- Date

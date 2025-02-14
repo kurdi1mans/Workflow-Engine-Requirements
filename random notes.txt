@@ -6,4 +6,8 @@
 + File
 + Code
 + Image
-+
+
+
+- I should not worry about the datatypes in the database as they are very limited
+- What I should worry about is the different types of fields as per the way they are visualized on the front-end and their behavior.
+	- Then, the secondary concern is how they are similar to each other.

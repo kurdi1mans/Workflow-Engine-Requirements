@@ -33,5 +33,27 @@
 - The system must allow for merging records
 - The system must provide drag-fill functionality for cells
 - The system must allow for linking the records with email threads
+- The system must provide alternate views for the register/sheet
+	- For example, if I want to view the record like a ticketing system (say Zoho Desk), the fields of the record should be shown on the side.
+- The system must provide multiple options for view of the log of the register/sheet
 - The system must allow for transactional processing
 - The system must provide the capability to control access as per the principals of Variant-Based Access Control
+- The system must allow the user to create his own sheets
+- The system must provide OCR capability to generate searchable content for files
+- The system must provide the capability to store files in a tag-based file system
+	- This will allow better classification and better accessability of files
+
+
+- Field Names can be changed
+- How will dataviews deal with name changes?
+- The system must allow for a balance sheet like functionality
+	- Similar to SOV in Unifier
+	- Similar to a booking calendar
+	- This requires transactional processing
+- The system must provide the capability to upload files
+	- The system must provide the capability to resume upload/download
+- The system must provide functionality to provide digitally signed documents
+	- This functionality must also allow integration with 3rd party service providers
+- The workflow must provide steps for automated actions
+	- send emails
+	- run integrations

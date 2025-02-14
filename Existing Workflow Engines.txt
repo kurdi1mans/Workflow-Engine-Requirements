@@ -1,0 +1,21 @@
+- Workflow alternatives
+	- Primavera Unifier
+	- Kissflow
+		- Allows the User to add tables as section in the form
+		- Has a lookup field type
+			- ???
+		- Has a masters field
+			- ???
+		- Automation similar to Temporal
+	- Zoho Creator
+	- Floway
+	- Flowdash
+- Orchestration Workflow Engines
+	- Temporal
+		- Temporal is workflow engine for automated workflows (probably not suitable for human interactions).
+			- It provides functionality to model extermely complex workflows that can run across multiple services using Saga Patters, Rate-Limiting, Exponential Backoff, ... etc.
+			- Not sure how the locking mechanism works if it's to be integrated with human-facing apps
+			- Not sure how the access control works here.
+				- Field-Level Access control by step
+	- Zapier
+	- xMatter Flow Designer
