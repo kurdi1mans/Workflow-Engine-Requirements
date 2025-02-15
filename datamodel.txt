@@ -58,6 +58,7 @@
 		- Image
 		- Thumbnail
 		- File
+			- Configurator can specify allowed extensions, file-size
 		- Multiple Files
 		- Timestamp
 		- Duration

@@ -1,4 +1,4 @@
-- Workflow alternatives
+- Human-Facing Workflow Engines
 	- Primavera Unifier
 	- Kissflow
 		- Allows the User to add tables as section in the form
@@ -10,7 +10,7 @@
 	- Zoho Creator
 	- Floway
 	- Flowdash
-- Orchestration Workflow Engines
+- Service-Facing Workflow Engines (Orchestration and Reliable Executions)
 	- Temporal
 		- Temporal is workflow engine for automated workflows (probably not suitable for human interactions).
 			- It provides functionality to model extermely complex workflows that can run across multiple services using Saga Patters, Rate-Limiting, Exponential Backoff, ... etc.
@@ -18,4 +18,5 @@
 			- Not sure how the access control works here.
 				- Field-Level Access control by step
 	- Zapier
+- Human&Service facing Workflow Engines
 	- xMatter Flow Designer
