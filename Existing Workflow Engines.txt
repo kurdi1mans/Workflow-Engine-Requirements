@@ -18,5 +18,7 @@
 			- Not sure how the access control works here.
 				- Field-Level Access control by step
 	- Zapier
+	- Uber’s Cadence
+	- Netflix Conductor OSS
 - Human&Service facing Workflow Engines
 	- xMatter Flow Designer
