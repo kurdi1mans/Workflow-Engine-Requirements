@@ -1,4 +1,6 @@
-- The workflow engine must be built as a javascript library
+- The workflow engine must be built as a javascript library.
+- From here on, the library will be referred to as the system.
+
 - The library must provide functions to create its own datamodel inside a database as per the developers choosing
 	- The developer might choose a separate database for the datamodel of the library
 	- The developer might choose a separate schema for the datamodel of the library
@@ -10,18 +12,7 @@
 	- fields
 		- field can auto-populate from other records
 			- there has to be an option for specify if the auto-population is live, dead-on-arrival, or dead-on-condition
-	- view
-- The system must allow for creation of tables/lineitems in a form.
-- Lineitems can be viewed in the record as tables or as tab that shows them as records on their own.
-
-- The system must allow for multi-leveled record creation in the form of parent-child relationship.
-	- This allows establishing trees.
-	- The system must also allow visualizaing this type of records as trees
-
-- workflow engine
-	- definition of steps and actions
-	- definition of validations per action
-		- validations must be action specific. For example, if the selected action is to reject the record, there is no need to verify anything.
+	- views
 
 - The system must allow for fields to have formula
 - The system must allow for bi-directional formulas
@@ -37,41 +28,75 @@
 	- String operations: substring, concatenate, split ... etc
 	- Lookup functions??
 	- Rollup fields (for lineitems/sub-records)
+
 - The system must allow for merging records
 - The system must provide drag-fill functionality for cells
 - The system must allow for linking the records with email threads
-- The system must provide alternate views for the register/sheet
-	- For example, if I want to view the record like a ticketing system (say Zoho Desk), the fields of the record should be shown on the side.
-- The system must provide multiple options for view of the log of the register/sheet
-- The system must allow for transactional processing
-- The system must provide the capability to control access as per the principals of Variant-Based Access Control
-- Access control is also to be defined at field-level
-- The system must allow the user to create his own sheets
-- The system must provide OCR capability to generate searchable content for files
-- The system must provide the capability to store files in a tag-based file system
-	- This will allow better classification and better accessability of files
 
 
 - Field Names can be changed
 	- How will dataviews deal with name changes?
-- The system must allow for a balance sheet like functionality
-	- Similar to SOV in Unifier
-	- Similar to a booking calendar
-	- Similar to seat availablity on air-planes
-	- This requires transactional processing
-- The system must provide the capability to upload files
-	- The system must provide the capability to resume upload/download
+
+- Transactional Processing
+	- The system must allow for transactional processing
+	- The system must allow for a balance sheet like functionality
+		- Similar to SOV in Unifier
+		- Similar to a booking calendar
+		- Similar to seat availablity on air-planes
+		- This requires transactional processing
+
+- File Management
+	- The system must provide the capability to upload files
+		- The system must provide the capability to resume upload/download
+	- The system must provide OCR capability to generate searchable content for files
+	- The system must provide the capability to store files in a tag-based file system
+		- This will allow better classification and better accessability of files
+
 - The system must provide functionality to provide digitally signed documents
 	- This functionality must also allow integration with 3rd party service providers
-- The workflow must provide steps for automated actions
-	- send emails
-	- run integrations
-	- Exponential Back-Off
-	- Rate Limiting
-	- ... etc
-- The system must provide the capability to create custom prints
+
+
+- Workflow Steps
+	- Steps and Actions
+		- definition of steps and actions
+	- Validations
+		- definition of validations per action
+		- validations must be action specific. For example, if the selected action is to reject the record, there is no need to verify anything.
+	- The workflow must provide steps for automated actions
+		- send emails
+		- run integrations
+		- Exponential Back-Off
+		- Rate Limiting
+		- ... etc
+
+
+- Types of Data and Data Structures
+	- The system must allow for creation of tables/lineitems in a form.
+	- Lineitems can be viewed in the record as tables or as tab that shows them as records on their own.
+	- The system must allow for multi-leveled record creation in the form of parent-child relationship.
+		- This allows establishing trees.
+		- The system must also allow visualizaing this type of records as trees
+	- The system must provide alternate views for the register/sheet
+		- For example, if I want to view the record like a ticketing system (say Zoho Desk), the fields of the record should be shown on the side.
+	- The system must provide multiple options for view of the log of the register/sheet
+		- example Zoho Desk
+			- View can be set to show the record field on the side
+			- The main body of the record shows email threads
+
+- Access Control
+	- Workflow steps can have assigned groups
+		- Records can be sent to a step even if the assigned group has no members
+		- At any point of time, if a user is added to a group, the
+	- The system must provide the capability to control access as per the principals of Variant-Based Access Control
+	- Access control is also to be defined at field-level
+	- The system must allow the user to create his own sheets
+
+- Custom Prints
+	- The system must provide the capability to create custom prints
 	- Custom prints must be built with blocks
 	- Design of blocks must be generic and resuable
 	- Blocks must be dynamic as per the data it receives
 	- Custom prints must allow exporting to Excel, Word, PDF ... etc.
-- The system must provide versioning for records
+
+- Versions and Drafts
+	- The system must provide versioning for records
