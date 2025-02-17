@@ -68,3 +68,10 @@
 	- run integrations
 	- Exponential Back-Off
 	- Rate Limiting
+	- ... etc
+- The system must provide the capability to create custom prints
+	- Custom prints must be built with blocks
+	- Design of blocks must be generic and resuable
+	- Blocks must be dynamic as per the data it receives
+	- Custom prints must allow exporting to Excel, Word, PDF ... etc.
+- The system must provide versioning for records
