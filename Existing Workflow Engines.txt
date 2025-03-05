@@ -22,3 +22,10 @@
 	- Netflix Conductor OSS
 - Human&Service facing Workflow Engines
 	- xMatter Flow Designer
+
+
+- There are two parts here
+	- The workflow part
+		- Steps, actions, activities, retries, error handling
+	- The Forms and Access Part
+		- Display, Roles, Varaints, Visibility, Required Fields, Hiding and Showing Fields
