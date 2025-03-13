@@ -1,0 +1,8 @@
+- Access Control
+	- The system must provide the capability to control access at field-level based on worflow step, group/role, field
+	- The system must provide the capability to control the flow of the workflow as per the principals of Role-Based Access Control
+	- The system must provide the capability to control access to records as per the principals of Variant-Based Access Control
+	- The system must allow the user to create his own sheets
+	- Workflow steps can have assigned groups
+		- Records can be sent to a step even if the assigned group has no members
+		- At any point of time, if a user is added to a group, the tasks at that step will be available to the user for action

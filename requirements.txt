@@ -8,15 +8,18 @@
 - The library must provide functions to create/modify/delete Forms
 	- Forms must contain blocks
 	- Blocks contain fields
-	- What fields will be read-only, editable, or required is not the concern of the forms functions
+	- What fields will be read-only, editable, or required is not the concern of the functionality of form management
 	- fields
 		- field can auto-populate from other records
 			- there has to be an option for specify if the auto-population is live, dead-on-arrival, or dead-on-condition
 	- views
 
-- The system must allow for merging records
+- The system must allow for merging records in the same register/sheets
+- The system must allof for merging registers/sheets
+	- This is necessary as you might need multiple registers/sheets to model the as-is business of diffferent organizations. Then, you might need to merge these registers/sheets (as part of the standardization process) according to the to-be business model.
 - The system must allow for cloning records
 - The system must provide drag-fill functionality for cells
+- The system must provide real-time (multiplayer) collaboration capability.
 
 - Fields Definition
 	- Field Names can be changed
@@ -38,6 +41,10 @@
 
 - Transactional Processing
 	- The system must allow for transactional processing
+		- What kind of transactional processing??
+			- Regular Single-Phase Transactions
+			- Two-Phase Transactions
+			- Saga Pattern
 	- The system must allow for a balance sheet like functionality
 		- Similar to SOV in Unifier
 		- Similar to a booking calendar
@@ -54,6 +61,15 @@
 - The system must provide functionality to provide digitally signed documents
 	- This functionality must also allow integration with 3rd party service providers
 
+
+- A point that is yet to be addressed in the design is the fact that different organizations (think Offshore Projects vs Onshore Projects in a Giant Oil Company) might requires slightly different fields for the same Process.
+	- For example, Offshore projects involves working on Offshore Rigs which might require additional fields specific to this special case of working environment.
+	- In general, fields might differ based on certain criteria related to Geography, Domain, Industry, ... etc.
+	- Remember the case of the 21 different departments that were struggling to standardize their processes due to sheer variance in their nature and requirements.
+	- A more specific example that I can recall is the funding mechanism for Offshore Projects.
+		- The budgeting/funding mechanism was appropration-based due to the fact that Offshore Oil-Field Projects were more of giant iterations of an operation rather than project with a unqiue scope. They have to be dealth with as projects due to the sheer size. However, the funding mechanism is appropriation-based rather than budget-based due to the operation-like nature of these projects.
+	- Should these be implemented as separate processes??
+	- Should these be implemented as a single process with different field-level access control setups by an organization variant??
 
 - Workflow Steps
 	- Steps and Actions
@@ -82,14 +98,6 @@
 			- View can be set to show the record field on the side
 			- The main body of the record shows email threads
 	- The system must allow for linking the records with email threads
-
-- Access Control
-	- Workflow steps can have assigned groups
-		- Records can be sent to a step even if the assigned group has no members
-		- At any point of time, if a user is added to a group, the
-	- The system must provide the capability to control access as per the principals of Variant-Based Access Control
-	- Access control is also to be defined at field-level
-	- The system must allow the user to create his own sheets
 
 - Custom Prints
 	- The system must provide the capability to create custom prints
