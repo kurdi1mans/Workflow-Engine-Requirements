@@ -21,6 +21,10 @@
 - The system must provide drag-fill functionality for cells
 - The system must provide real-time (multiplayer) collaboration capability.
 
+- The system must allow for records to be exported to excel and imported again to create new records
+- The system must allow for records to be exported to excel and imported again to update the records
+
+
 - Transactional Processing
 	- The system must allow for transactional processing
 		- What kind of transactional processing??
