@@ -3,4 +3,6 @@
 - The system must provide OCR capability to generate searchable content for files
 - The system must provide the capability to store files in a tag-based file system
 	- This will allow better classification and better accessability of files
+- The system must provide the functionality to generate tags and metadata for files using an AI/ML model that can handle multiple languages
 - The system must provide capability to synchronize files to local file system similar to Dropbox/Google Drive/OneDrive/etc.
+- The system must store unique files only once and store an internal reference to the file whenever it is uploaded again

@@ -1,5 +1,8 @@
 - The workflow engine must be built as a javascript library.
 - From here on, the library will be referred to as the system.
+- All links in the system must be shareable, long-lasting, and reachable if the user has the proper access.
+- The system must provide automatic translation capability with the option to revise the translated text.
+- The system must provide a federated search capability that searches across all records and attached files in the system.
 
 - The library must provide functions to create its own datamodel inside a database as per the developers choosing
 	- The developer might choose a separate database for the datamodel of the library

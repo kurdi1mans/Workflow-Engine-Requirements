@@ -23,3 +23,15 @@
 		- Similar to a booking calendar
 		- Similar to seat availablity on air-planes
 		- This requires transactional processing
+
+
+- The system must provide the capability to take decisions on workflow tasks according to the below approaches
+	- Single Action (one assignee takes action)
+	- Majority
+	- Consensus
+
+- The system must provide the capability to allow multiple data entries on tasks
+	- For example, if the task is enter an estimate value, the system must capture different values entered by multiple people which can later be used to assess the quality of the estimate or have multiple estimates for the same task.
+	- This requirement might require certain considerations in the datamodel design.
+	- This can potentially be implemented as a seperate Process with a seperate workflow (maybe sub-worflow)
+	- Tasks in this case can be also be terminated if they are no longer relevant.
