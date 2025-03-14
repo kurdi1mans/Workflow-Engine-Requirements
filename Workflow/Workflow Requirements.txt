@@ -1,0 +1,25 @@
+
+- Workflow Steps
+	- Steps and Actions
+		- definition of steps and actions
+	- Validations
+		- definition of validations per action
+		- validations must be action specific. For example, if the selected action is to reject the record, there is no need to verify anything.
+	- The workflow must provide steps for automated actions
+		- send emails
+		- run integrations
+		- Exponential Back-Off
+		- Rate Limiting
+		- ... etc
+
+- Transactional Processing
+	- The system must allow for transactional processing
+		- What kind of transactional processing??
+			- Regular Single-Phase Transactions
+			- Two-Phase Transactions
+			- Saga Pattern
+	- The system must allow for a balance sheet like functionality
+		- Similar to SOV in Unifier
+		- Similar to a booking calendar
+		- Similar to seat availablity on air-planes
+		- This requires transactional processing

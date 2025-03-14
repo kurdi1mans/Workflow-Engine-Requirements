@@ -1,0 +1,62 @@
+
+- Fields Definition
+	- Field Names can be changed
+		- How will dataviews deal with name changes?
+	- The system must allow for fields to have formula
+		- The system must allow for bi-directional formulas
+			- 3 fields (or more) all have formula
+			- input values in first n fields, the last will be calculated by the formula
+			- the oldest updated field will be set to formula if a new field is updated manually
+		- Formulas can have any of the following logic
+			- Arithmetics: +,-,*,/,^,log ... etc
+			- logical operators such as: and, or, not, xor, xnor ... etc
+			- if conditions such as: if, else if, else
+			- conditionals such as >,<,>=,<=,=,!= ... etc
+			- Date arithmatics and conditionals
+			- String operations: substring, concatenate, split ... etc
+			- Lookup functions??
+			- Rollup fields (for lineitems/sub-records)
+
+
+- Versions and Drafts
+	- The system must provide versioning for records
+
+- The workflow engine must keep track of the history of actions taken on a record.
+- The workflow engine must provide an audit log for records that include read, write, and delete operations at field-level for the records.
+	- This is also part of the versioning capability.
+
+
+
+
+- A point that is yet to be addressed in the design is the fact that different organizations (think Offshore Projects vs Onshore Projects in a Giant Oil Company) might requires slightly different fields for the same Process.
+	- For example, Offshore projects involves working on Offshore Rigs which might require additional fields specific to this special case of working environment.
+	- In general, fields might differ based on certain criteria related to Geography, Domain, Industry, ... etc.
+	- Remember the case of the 21 different departments that were struggling to standardize their processes due to sheer variance in their nature and requirements.
+	- A more specific example that I can recall is the funding mechanism for Offshore Projects.
+		- The budgeting/funding mechanism was appropration-based due to the fact that Offshore Oil-Field Projects were more of giant iterations of an operation rather than project with a unqiue scope. They have to be dealth with as projects due to the sheer size. However, the funding mechanism is appropriation-based rather than budget-based due to the operation-like nature of these projects.
+	- Should these be implemented as separate processes??
+	- Should these be implemented as a single process with different field-level access control setups by an organization variant??
+
+
+
+- The system must allow for merging records in the same register/sheets
+- The system must allow for merging registers/sheets
+	- This is necessary as you might need multiple registers/sheets to model the as-is business of diffferent organizations. Then, you might need to merge these registers/sheets (as part of the standardization process) according to the to-be business model.
+- The system must allow for cloning records
+- The system must provide drag-fill functionality for cells
+
+
+
+- Some data types are just specific form of other data types.
++ For Example, phone number (+966-5-97756349) is a restricted type of String. The same applies to emails.
+
+- What other data types?
++ Video
++ File
++ Code
++ Image
+
+
+- I should not worry about the datatypes in the database as they are very limited
+- What I should worry about is the different types of fields as per the way they are visualized on the front-end and their behavior.
+	- Then, the secondary concern is how they are similar to each other.

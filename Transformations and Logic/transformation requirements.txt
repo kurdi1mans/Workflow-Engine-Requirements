@@ -1,3 +1,10 @@
+
+- The system must provide the capability to transform data using complex logic similar to SQL
+	- This transformation mechanism must cach results as per a push-based and transactional mechanism.
+	- The references to datafields must be by ID rather than name in order to allow for renaming of fields and tables.
+	- The result of these transformations can either be additional columns in the register/sheet or a new register/sheet that serves as a view of the primary register/sheet.
+
+
 - One main problem with SQL dataviews is the fact that
 	- SQL references artifacts (tables, views, and columns) by name (not ID)
 		- This essentially means that renaming any column or table will break the SQL code
