@@ -1,8 +1,26 @@
 - The workflow engine must be built as a javascript library.
 - From here on, the library will be referred to as the system.
-- All links in the system must be shareable, long-lasting, and reachable if the user has the proper access.
-- The system must provide automatic translation capability with the option to revise the translated text.
+- All URLs/links in the system must be shareable, long-lasting, and reachable if the user has the proper access.
+- The system must provide cell URLs such that the user can share a link to point out a specific cell in a record.
+- The system must provide Single-Sign-On capability.
+- The system must provide HTML embeddable views capability.
+- The system must provide the capability for external collaborators to create/modifiy records download/upload files.
+	- public
+	- password
+	- Restricted to email domain
+	- Restricted to specific email addresses or phone numbers
+		- authenticated through tokens sent to email or phone numbers
+- The system must provide the capability to restrict access to specific IPs or IP ranges for groups of Users.
+- The system must provide MFA capability that can be configured by Admins.
+- The system must provide the capability to restrict session time, session timeout.
+
+
+- The system must provide automatic translation capability with the option to revise the translated text for everything in the system.
+	- This functionality must be support by AI/ML models that can handle multiple languages.
 - The system must provide a federated search capability that searches across all records and attached files in the system.
+- The system must support multiple languages.
+- The system must provide the capability to change the view from LTR to RTL for Arabic Support.
+
 
 - The library must provide functions to create its own datamodel inside a database as per the developers choosing
 	- The developer might choose a separate database for the datamodel of the library

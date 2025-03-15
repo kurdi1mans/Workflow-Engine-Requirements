@@ -6,17 +6,23 @@
 		- definition of validations per action
 		- validations must be action specific. For example, if the selected action is to reject the record, there is no need to verify anything.
 	- The workflow must provide steps for automated actions
+		- Update or create other records
+			- must allow access to the source record data (before and after the action)
 		- send emails
 		- run integrations
 		- Exponential Back-Off
 		- Rate Limiting
 		- ... etc
 
+
+- Workflow engine must provide the following peculiar functionality
+	- Sometimes the approvals required for a certain document are not fixed in terms of number of approvers. The workflow engine must allow for an approval path with a dynamic length.
+
 - Transactional Processing
 	- The system must allow for transactional processing
 		- What kind of transactional processing??
-			- Regular Single-Phase Transactions
-			- Two-Phase Transactions
+			- Regular Single-Phase Commit Transactions
+			- Two-Phase Commit or Multi-Phase Commit Transactions
 			- Saga Pattern
 	- The system must allow for a balance sheet like functionality
 		- Similar to SOV in Unifier
@@ -35,3 +41,8 @@
 	- This requirement might require certain considerations in the datamodel design.
 	- This can potentially be implemented as a seperate Process with a seperate workflow (maybe sub-worflow)
 	- Tasks in this case can be also be terminated if they are no longer relevant.
+
+
+- If at any point it's deemed necessary to build automation capability similar to the one provided by AirTable, the option to access values from records before/after action is needed.
+	- This is necessary due to the fact that certain automations require the value from the record before the action was taken.
+		- For example, removing the assigned parent of a task requires updates to remove the current task from the parent's children list.

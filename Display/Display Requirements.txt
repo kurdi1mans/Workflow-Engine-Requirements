@@ -38,3 +38,5 @@
 			- The main body of the record shows email threads
 	- The system must allow for linking the records with email threads
 	- The system must provide the capability to capture data in pivot-table format
+
+- The table view must provide conditional formatting capability similar to Excel
