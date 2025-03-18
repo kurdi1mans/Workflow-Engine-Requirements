@@ -1,1 +1,10 @@
+- It is obvious from the evalution of many workflow engines that almost all of theme are built with a certain opioionated approach.
+	- This is not a bad thing, but it is a limitation.
+	- Out-Of-The-Box (OOTB) applications are provided as a preset feature that cannot be modified or extended.
+	- A better approach is to build these OOTB applications with the design capabilities of the system itself so that the user can modify or extend the OOTB applications.
+	- Moreover, in order to properly define the needed functionality and address any design shortcomings, the designers and developers of the application must build many applications (of varying complexity) using the system by themselves.
+		- This will allow theme to full understand the limitations and capabilities of the system they are building.
 
+- What seems to be the overall goal here is to build a platform that permits building complex applications with no-code.
+	- This is more like switching from written code to visual coding.
+	- Also, this approach relies on pre-built components that can be reused like libraries and stable patterns.

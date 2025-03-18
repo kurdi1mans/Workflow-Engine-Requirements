@@ -13,7 +13,16 @@
 - The system must provide the capability to restrict access to specific IPs or IP ranges for groups of Users.
 - The system must provide MFA capability that can be configured by Admins.
 - The system must provide the capability to restrict session time, session timeout.
-
+- The system must somehow provide a mechanism to identify resource availablity.
+	- For example, if a user is trying to book a room, the system must provide a mechanism to check if the room is available.
+	- Another example, if an employee is on leave, the system must provide a mechanism to reassign his work to someone else.
+		- Access control alone is not sufficient for this.
+	- These two examples pertain to two different parts of the requirements.
+		- one is related to access control
+		- the other is related to resource availability
+		- other examples like SOV, Booking Calenders, Budget control
+		- Most of these examples are specifically concerned about the availability of a certain resource.
+		- However, we should also think about think about this functionality in terms of mutual exclusion or as a locking mechanism.
 
 - The system must provide automatic translation capability with the option to revise the translated text for everything in the system.
 	- This functionality must be support by AI/ML models that can handle multiple languages.
