@@ -1,0 +1,38 @@
+- Zoho Desk like
+	- email integration
+	- end user portal
+- Schedule Submittal Solution
+	- Automatic upload of schedules to P6
+	- Automatic checking of XML submittals to verify compliance with Schedule and Quality standards
+		- Schedule Comparison Reports
+		- Technical Validation of the schedules
+- PAF Solution
+	- Variant-Based Access control
+	- Variant-Based Flow control
+	- Custom Prints
+	- Third-Party Digital Signature Integration
+	- Also, Digital Signature capability is needed in general
+	- Automatic reassignement if employee is on leave
+	- Automatic escalation if duration is exceeded
+	- Restrictions on Custom Print access (must not be editable)
+	- Dynamic Workflow Paths (approval paths changes based on record type or RPO)
+- Scheduling Solution (P6 like)
+	- ???
+- Murasalat (Correspondenc Solution)
+	- Federated Search with OCR capability
+	- Variant-Based Access control
+	- extension requests for the deadline
+	- Digital Signature
+	- Escalations for Delays
+- Document Management System
+	- Variant-Based Access control
+	- Tag-based file System
+	- Allows external access
+		- link with password
+		- link with white-listed emails to be verified through sms/email codes
+		- public links
+	- Integrated with Other solutions for automatic capture of files
+	- Resume upload/download for very large files sets
+	- Synchronization similar to Dropbox, Google Drive, One Drive
+	- AI/ML powered for automatic meta-data extraction
+	- Federated Search capability with Multi-language OCR Support
