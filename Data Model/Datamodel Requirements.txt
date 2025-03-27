@@ -60,3 +60,12 @@
 - I should not worry about the datatypes in the database as they are very limited
 - What I should worry about is the different types of fields as per the way they are visualized on the front-end and their behavior.
 	- Then, the secondary concern is how they are similar to each other.
+
+
+- Consider the following scenario
+	- you have a register/process for surveys
+	- Based on a drop down, you have multiple types of surveys
+	- Each type of survey will have a different set of questions that should appear on the form of the process
+	- If you have 100 types of surveys and the questions for each type are different fields
+	- storing these as columns is going to be insane because you could have up to a thousand five thousand columns
+	- so how can we somehow store upper form fields, we store them as line items

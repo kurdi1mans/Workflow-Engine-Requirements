@@ -46,3 +46,11 @@
 - If at any point it's deemed necessary to build automation capability similar to the one provided by AirTable, the option to access values from records before/after action is needed.
 	- This is necessary due to the fact that certain automations require the value from the record before the action was taken.
 		- For example, removing the assigned parent of a task requires updates to remove the current task from the parent's children list.
+
+- The system must provide warnings for workflow steps that have no active members
+
+
+- Dynamic Workflow Paths (approval paths changes based on record type or RPO)
+- Automatic unlocking for tasks held by users with no action
+- Automatic reassignement if employee is on leave
+- Automatic escalation if duration is exceeded
