@@ -8,3 +8,13 @@
 - What seems to be the overall goal here is to build a platform that permits building complex applications with no-code.
 	- This is more like switching from written code to visual coding.
 	- Also, this approach relies on pre-built components that can be reused like libraries and stable patterns.
+
+- Register definition is data
+- Workflow definition is data
+	- Step definition is data
+	- Validation definition is data
+	- Workflow State definition is data
+- Group definition is data
+- Privilege definition is data
+- A workflow action on a record is an update to a field that triggers an action
+- A validation is an action

@@ -14,8 +14,13 @@
 	- conditionals such as >,<,>=,<=,=,!= ... etc
 	- Date arithmatics and conditionals
 	- String operations: substring, concatenate, split ... etc
-	- Lookup functions??
+	- Lookup fields
 	- Rollup fields (for lineitems/sub-records)
+		- Rollup fields must allow for manual data entry at leaf-level while they aggregate at higher levels based on formulas
+		- Rollup fields should also allow for partialing values of an item to its children items if children items are to be added.
+			- The partialing can follow a formula (uniform or based on weight of field or others)
+			- The partialing can also be modified manually similar to the bi-directional formulas
+		- Further analysis of the requirements and design of rollup fields is needed !!
 
 
 - Versions and Drafts
@@ -48,7 +53,7 @@
 
 
 - Some data types are just specific form of other data types.
-+ For Example, phone number (+966-5-97756349) is a restricted type of String. The same applies to emails.
++ For Example, phone number (+966-5-12345678) is a restricted type of String. The same applies to emails.
 
 - What other data types?
 + Video
@@ -68,4 +73,5 @@
 	- Each type of survey will have a different set of questions that should appear on the form of the process
 	- If you have 100 types of surveys and the questions for each type are different fields
 	- storing these as columns is going to be insane because you could have up to a thousand five thousand columns
-	- so how can we somehow store upper form fields, we store them as line items
+	- so how can we somehow store upper form fields, we store them as line items?
+		- This can be solved if the datamodel itself is built to store columns as rows in some other registry, thereby allowing an infinite number of columns
