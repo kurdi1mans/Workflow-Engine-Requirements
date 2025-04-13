@@ -13,6 +13,9 @@
 		- Exponential Back-Off
 		- Rate Limiting
 		- ... etc
+	- Data related to what workflow step the record is at (Workflow State) must be kept as a register
+		- This way it can be updated moving a record from a step to another.
+		- This change can be handling through a workflow to obtain the required approvals
 
 
 - Workflow engine must provide the following peculiar functionality
@@ -37,7 +40,7 @@
 	- Consensus
 
 - The system must provide the capability to allow multiple data entries on tasks
-	- For example, if the task is enter an estimate value, the system must capture different values entered by multiple people which can later be used to assess the quality of the estimate or have multiple estimates for the same task.
+	- For example, if the task is to enter an estimate value, the system must capture different values entered by multiple people which can later be used to assess the quality of the estimate or have multiple estimates for the same task.
 	- This requirement might require certain considerations in the datamodel design.
 	- This can potentially be implemented as a seperate Process with a seperate workflow (maybe sub-worflow)
 	- Tasks in this case can be also be terminated if they are no longer relevant.
@@ -46,3 +49,11 @@
 - If at any point it's deemed necessary to build automation capability similar to the one provided by AirTable, the option to access values from records before/after action is needed.
 	- This is necessary due to the fact that certain automations require the value from the record before the action was taken.
 		- For example, removing the assigned parent of a task requires updates to remove the current task from the parent's children list.
+
+- The system must provide warnings for workflow steps that have no active members
+
+
+- Dynamic Workflow Paths (approval paths changes based on record type or RPO)
+- Automatic unlocking for tasks held by users with no action
+- Automatic reassignement if employee is on leave
+- Automatic escalation if duration is exceeded
