@@ -18,6 +18,7 @@
 		- Picker Dropdown
 			- Simple list showing a popup table
 			- Advanced picker shows full table
+			- Might require restriction by access control
 		- Multi-Select
 		- Lookup
 			- fetch details from other registers as per other fields in the record
@@ -76,20 +77,27 @@
 		- List
 		- Set
 		- Rich-Text
-- Fields //
-	- ID
+- Field //
+	- Field_ID (PK)
 	- Name
-	- Data_Type_ID
+	- Data_Type_ID (FK)
 - Link_Field
-	- ID // same as the field ID
-	- Source_Sheet_ID
+	- Link_Field_ID (PK) // same as the field ID
+	- Source_Sheet_ID (FK)
 	- Type // Live, Dead-On-Arrival, Dead-By-Condition
 	- Conditions ??
 - Sheet-Field
-	- Sheet_ID
-	- Field_ID // a field can be used in multiple registers
+	- Sheet_Field_ID (PK)
+	- Sheet_ID (FK)
+	- Field_ID (FK) // a field can be used in multiple sheets
 - Record
-	- ID
+	- Record_ID (PK)
 - Record_Value
-	-
+	- Record_Value_ID (PK)
+	- Record_ID (FK)
+	- Sheet_Field_ID (FK)
 - View
+	- SQL Dataview?? or Display View??
+- WorkFlow
+	- Workflow_ID
+	- Sheet_ID

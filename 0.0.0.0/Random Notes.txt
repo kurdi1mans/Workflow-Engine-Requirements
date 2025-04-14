@@ -10,11 +10,9 @@
 	- Also, this approach relies on pre-built components that can be reused like libraries and stable patterns.
 
 - Register definition is data
-- Workflow definition is data
-	- Step definition is data
-	- Validation definition is data
-	- Workflow State definition is data
+	- already covered in the primary core tables
+- Workflow Steps, Actions, Validations, Status is data
+	- required special core tables
 - Group definition is data
+	- requires special core tables
 - Privilege definition is data
-- A workflow action on a record is an update to a field that triggers an action
-- A validation is an action

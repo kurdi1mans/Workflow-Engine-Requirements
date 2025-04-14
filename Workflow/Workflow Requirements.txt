@@ -1,4 +1,3 @@
-
 - Workflow Steps
 	- Steps and Actions
 		- definition of steps and actions
@@ -17,9 +16,21 @@
 		- This way it can be updated moving a record from a step to another.
 		- This change can be handling through a workflow to obtain the required approvals
 
+- Workflow definition is data stored in a register
+	- Step definition is data
+	- Validation definition is data
+		- A validation is an action
+		- That means actions are stored as data
+		- A workflow action on a record is an update to a field that triggers an action
+	- Workflow State definition is data
+
+
+
 
 - Workflow engine must provide the following peculiar functionality
 	- Sometimes the approvals required for a certain document are not fixed in terms of number of approvers. The workflow engine must allow for an approval path with a dynamic length.
+	- This requirement can potentially be addressed by a circular update to the same step that relies on metadata to determine the next approver.
+	- Another alternative here is to have a dynamic workflow Paths
 
 - Transactional Processing
 	- The system must allow for transactional processing
