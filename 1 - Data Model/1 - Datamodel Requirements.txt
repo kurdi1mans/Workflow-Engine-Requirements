@@ -1,15 +1,19 @@
-
 - Fields Definition
 	- Field Names can be changed
-		- How will dataviews deal with name changes?
-	- The system must allow for fields to have formula
-		- The system must allow for bi-directional formulas
-			- 2 fields (or more) all have formula
-			- input values in first n fields, the last will be calculated by the formula
-			- the oldest updated field will be set to formula if a new field is updated manually
-			- Example
-				- If the user provides a date on the Gregorian Calendar, the equivalent Hijri date is auto-calculated.
-					- If the user provides a date on the Hijri Calendar, the equivalent Gregorian date is auto-calculated.
+		- How will dataviews deal with name changes??
+
+
+
+
+- The system must allow for fields to have formula
+	- The system must allow for bi-directional formulas
+		- 2 fields (or more) all have formula
+		- input values in first n fields, the last will be calculated by the formula
+		- the oldest updated field will be set to formula if a new field is updated manually
+		- Example
+			- If the user provides a date on the Gregorian Calendar, the equivalent Hijri date is auto-calculated.
+				- If the user provides a date on the Hijri Calendar, the equivalent Gregorian date is auto-calculated.
+
 - Formulas can have any of the following logic
 	- Arithmetics: +,-,*,/,^,log ... etc
 	- logical operators such as: and, or, not, xor, xnor ... etc
@@ -28,8 +32,9 @@
 
 - Versions and Drafts
 	- The system must provide versioning for records
+	- This versioning capability must be tied to the auditing capability.
 
-- The workflow engine must keep track of the history of actions taken on a record.
+- The workflow engine must keep track of the history of Workflow Action, Update, Read operations done on a record.
 - The workflow engine must provide an audit log for records that include read, write, and delete operations at field-level for the records.
 	- This is also part of the versioning capability.
 
