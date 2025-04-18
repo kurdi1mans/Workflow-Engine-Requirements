@@ -1,0 +1,1 @@
+- The system must provide native visualization and charting capability to build dashboards and reports in the same platform.
