@@ -42,9 +42,9 @@
 	- Variant-Based Access control
 	- Tag-based file System
 	- Allows external access
-		- link with password
-		- link with white-listed emails to be verified through sms/email codes
-		- public links
+		- download link with password
+		- donwload link with white-listed emails to be verified through sms/email codes
+		- public download links to be used for public purposes (images and files in websites, publicly available files).
 	- Integrated with Other solutions for automatic capture of files
 	- Resume upload/download for very large files sets
 	- Synchronization similar to Dropbox, Google Drive, One Drive
