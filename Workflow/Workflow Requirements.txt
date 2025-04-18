@@ -1,8 +1,23 @@
+- Note that Workflow Actions are not the same thing as actions.
+
 - Workflow Steps
-	- Steps and Actions
-		- definition of steps and actions
+	- Steps
+	- Workflow Actions (simialr to Termporal signals)
+		- Workflow Actions are the action taken by users or external systems at a workflow step.
+		- Workflow Actions determine the next workflow step.
+	- Activities
+		- Activities are operations, functions, or code that is executed automatically at a specific workflow step.
+		- Activities can do automated work such as
+			- run API functions
+			- run certain actions within the system
+		- Activities are triggered by a record arriving at a workflow step or when an action on a record is taken
+		- Activities can be executed in one of two modes
+			- Synchronous (Blocking)
+			- Asynchronous (Non-Blocking)
+		- Activities triggered by a workflow action can used for transactional validation. Therefore, they must be Synchronous and transactional.
 	- Validations
-		- definition of validations per action
+		- Validations must be defined at action-level. In other words, the validation for each action at a specific workflow step cn be different.
+			- For example, at an invoice approval step, if the action is to approve the invoice the remaining budget must be validated. However, if the invoice is to be rejected, this validation is not necessary.
 		- validations must be action specific. For example, if the selected action is to reject the record, there is no need to verify anything.
 	- The workflow must provide steps for automated actions
 		- Update or create other records
@@ -20,7 +35,7 @@
 	- Step definition is data
 	- Validation definition is data
 		- A validation is an action
-		- That means actions are stored as data
+		- That means Workflow Actions are stored as data
 		- A workflow action on a record is an update to a field that triggers an action
 	- Workflow State definition is data
 
