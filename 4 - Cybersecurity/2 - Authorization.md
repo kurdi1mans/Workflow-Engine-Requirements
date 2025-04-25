@@ -16,7 +16,7 @@
 
 - The system must provide the capability for external collaborators to create/modifiy records download/upload files.
 	- public users (submit complaints, tickets, inquiries)
-	- password 
+	- password
 	- Restricted to email domain
 	- Restricted to specific email addresses or phone numbers
 		- authenticated through tokens sent to email or phone numbers
@@ -25,4 +25,8 @@
 - The system must provide MFA capability that can be configured by Admins.
 - The system must provide the capability to restrict session time, session timeout.
 
-- The system must provide Single-Sign-On capability.
+
+
+- The system must provide functionality to provide digitally signed documents
+	- This functionality must also allow integration with 3rd party service providers
+		- A third party service provider can play the role of a witness in this case. Therefore, even if the system provides this capability, the use of third-party vendor might still be required.

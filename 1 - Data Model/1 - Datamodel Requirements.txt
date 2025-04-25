@@ -28,6 +28,7 @@
 			- The partialing can follow a formula (uniform or based on weight of field or others)
 			- The partialing can also be modified manually similar to the bi-directional formulas
 		- Further analysis of the requirements and design of rollup fields is needed !!
+	- Ideally, formualas must cover everything that can be used in an Excel/Google/Libre sheet.
 
 
 - Versions and Drafts
