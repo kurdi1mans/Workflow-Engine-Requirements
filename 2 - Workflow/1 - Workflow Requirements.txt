@@ -62,6 +62,19 @@
 	- Similar to seat availablity on cinema seat reservation
 	- This requires transactional processing in order to avoid conflicts
 
+
+- The system must somehow provide a mechanism to identify resource availablity.
+	- For example, if a user is trying to book a room, the system must provide a mechanism to check if the room is available.
+	- Another example, if an employee is on leave, the system must provide a mechanism to reassign his work to someone else.
+		- Access control alone is not sufficient for this.
+	- These two examples pertain to two different parts of the requirements.
+		- one is related to access control
+		- the other is related to resource availability
+		- other examples like SOV, Booking Calenders, Budget control
+		- Most of these examples are specifically concerned about the availability of a certain resource.
+		- However, we should also think about think about this functionality in terms of mutual exclusion or as a locking mechanism.
+
+
 - The system must provide the capability to allow multiple data entries or decisions on tasks
 	- For example, if the task is to enter an estimate value, the system must capture different values entered by multiple people which can later be used to assess the quality of the estimate or have multiple estimates for the same task.
 	- This requirement might require certain considerations in the datamodel design.

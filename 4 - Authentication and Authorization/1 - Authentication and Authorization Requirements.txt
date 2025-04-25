@@ -13,3 +13,16 @@
 - For sensetive fields shown as part of a long register, read operations cannot be effectively tracked
 	- a Solution here is to set the value of the field invisible
 		- Users can un-hide the value of each cell separately (generating an audit log item)
+
+- The system must provide the capability for external collaborators to create/modifiy records download/upload files.
+	- public users (submit complaints, tickets, inquiries)
+	- password 
+	- Restricted to email domain
+	- Restricted to specific email addresses or phone numbers
+		- authenticated through tokens sent to email or phone numbers
+
+- The system must provide the capability to restrict access to specific IPs or IP ranges for groups of Users.
+- The system must provide MFA capability that can be configured by Admins.
+- The system must provide the capability to restrict session time, session timeout.
+
+- The system must provide Single-Sign-On capability.
