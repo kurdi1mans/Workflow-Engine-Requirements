@@ -10,8 +10,8 @@ The intended audience of this document is anyone who intends to build a workflow
 
 ### Scope
 This repository contains the Software Requirement Specifications (SRS) for a workflow engine. It covers requirements that span the following topics:
-- [Data Model Requirements](01 - Data Model/1 - Datamodel Requirements.md)
-- [Data Types Requirements](02 - Data Types/1 - Data Types Requirements.md)
+- [Data Model Requirements](./01%20-%20Data%20Model/1%20-%20Datamodel%20Requirements.md)
+- [Data Types Requirements](./02%20-%20Data%20Types/1%20-%20Data%20Types%20Requirements.md)
 - Display and Visualization
 - Cybersecurity and Access Control
 - Workflow Definition and Status Tracking
