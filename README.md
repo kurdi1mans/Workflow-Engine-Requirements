@@ -14,12 +14,12 @@ This repository contains the Software Requirement Specifications (SRS) for a wor
 - [02 - Data Types Requirements](./02%20-%20Data%20Types/1%20-%20Data%20Types%20Requirements.md)
 - [03 - Workflow Requirements](./03%20-%20Workflow/1%20-%20Workflow%20Requirements.md)
 - [04 - Display Requirements](./04%20-%20Display%20and%20Visualization/1%20-%20Display%20Requirements.md)
-- [05 - Cybersecurity Requirements]()
-- [06 - Transformation and Logic]()
-- [07 - File Management Requirements]()
-- [08 - Compatiability and Interoperability Requirements]()
-- [09 - User Experience Requirements]()
-- [10 - Technical Requirements]()
+- [05 - Cybersecurity Requirements](./05%20-%20Cybersecurity/1%20-%20Cybersecurity%20Requirements.md)
+- [06 - Transformation and Logic](./06%20-%20Transformations%20and%20Logic/1%20-%20Transformations%20and%20Logic%20Requirements.md)
+- [07 - File Management Requirements](./07%20-%20File%20Management/1%20-%20File%20Management%20Requirements.md)
+- [08 - Compatiability and Interoperability Requirements](./08%20-%20Compatibility%20and%20Interoperability/1%20-%20Compatibility%20and%20Interoperability.md)
+- [09 - User Experience Requirements](./09%20-%20User%20Experience/1%20-%20User%20Experience%20Requirements.md)
+- [10 - Technical Requirements](./10%20-%20Technical%20Requirements/1%20-%20Technical%20Requirements.md)
 
 ### Glossary
 ### References
