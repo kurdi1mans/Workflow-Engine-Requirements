@@ -12,8 +12,8 @@ The intended audience of this document is anyone who intends to build a workflow
 This repository contains the Software Requirement Specifications (SRS) for a workflow engine. It covers requirements that span the following topics:
 - [01 - Data Model Requirements](./01%20-%20Data%20Model/1%20-%20Datamodel%20Requirements.md)
 - [02 - Data Types Requirements](./02%20-%20Data%20Types/1%20-%20Data%20Types%20Requirements.md)
-- [03 - Workflow Requirements](./03%20-%20Workflow/1%20-%20Workflow%20Requirements.md)
-- [04 - Display Requirements](./04%20-%20Display%20and%20Visualization/1%20-%20Display%20Requirements.md)
+- [03 - Display Requirements](./03%20-%20Display%20and%20Visualization/1%20-%20Display%20Requirements.md)
+- [04 - Workflow Requirements](./04%20-%20Workflow/1%20-%20Workflow%20Requirements.md)
 - [05 - Cybersecurity Requirements](./05%20-%20Cybersecurity/1%20-%20Cybersecurity%20Requirements.md)
 - [06 - Transformation and Logic](./06%20-%20Transformations%20and%20Logic/1%20-%20Transformations%20and%20Logic%20Requirements.md)
 - [07 - File Management Requirements](./07%20-%20File%20Management/1%20-%20File%20Management%20Requirements.md)
