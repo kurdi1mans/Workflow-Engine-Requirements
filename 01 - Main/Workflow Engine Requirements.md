@@ -1,5 +1,3 @@
-# Workflow Engine Requirements
-
 ## Introduction
 
 ### Purpose

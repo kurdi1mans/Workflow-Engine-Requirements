@@ -1,4 +1,4 @@
-- The workflow engine must be built as a javascript library.
+- The workflow engine must be built as a JavaScript library.
 
 
 - The library must provide functions to create its own datamodel inside a database as per the developers choosing

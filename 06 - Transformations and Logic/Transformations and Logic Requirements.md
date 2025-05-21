@@ -1,6 +1,6 @@
 
 - The system must provide the capability to transform data using complex logic similar to SQL
-	- This transformation mechanism must cach results as per a push-based, deltified, transactional mechanism
+	- This transformation mechanism must cache results as per a push-based, deltified, transactional mechanism
 	- The references to datafields must be by ID rather than name in order to allow for renaming of fields and tables.
 	- The result of these transformations can either be additional columns in the register/sheet or a new register/sheet that serves as a view of the primary register/sheet.
 
@@ -8,7 +8,7 @@
 - One primary mechanism to build the data transformation capability is the Deltified Transformation logic
 	- This means that any calculations that uses data from the source must not be fully recomputed if there is a way to shortcut the calculation using some delta-logic.
 		- example, calculating the average salary for all employees might require summing all salaries then dividing by the count
-			- Alternatively, the total and count might be stored permenantly and updated everytime a change happen to employee salaries to generate the new average based on the below formulas:
+			- Alternatively, the total and count might be stored permanently and updated everytime a change happen to employee salaries to generate the new average based on the below formulas:
 				- New Total = Old Total +/- Change
 				- New Count = Old Count +/- Change
 		- This concept of logic deltification requires further study to determine its feasibility.

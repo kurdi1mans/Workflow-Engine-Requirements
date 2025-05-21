@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "00 - Unsorted/All Files List.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "All Files List"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "00 - Unsorted/All Files List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for All Files List"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "00 - Unsorted/All Files List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links from All Files List"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "00 - Unsorted/All Files List.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of All Files List"
             }
           }
         ]
@@ -170,21 +170,28 @@
   },
   "active": "0aacb527de669a84",
   "lastOpenFiles": [
-    "00 - Unsorted/1 - Uncategorized Requirements.md",
-    "09 - User Experience/1 - User Experience Requirements.md",
-    "02 - Data Types/1 - Data Types Requirements.md",
-    "01 - Main/1 - Main.md",
-    "00 - Unsorted/999 - Datamodel_Design.md",
-    "00 - Unsorted/52 - Use Cases that need to be convered.md",
-    "00 - Unsorted/51- Random Notes.md",
-    "00 - Unsorted/2 - Datamodel Requirements.md",
-    "05 - Cybersecurity/1 - Cybersecurity Requirements.md",
-    "05 - Cybersecurity/2 - Authentication.md",
-    "05 - Cybersecurity/Variant-Based Access Control (VBAC).md",
+    "00 - Unsorted/Random Notes.md",
+    "01 - Main/Workflow Engine Requirements.md",
+    "00 - Unsorted/All Files List.md",
+    "00 - Unsorted/Un-categorized Requirements.md",
+    "00 - Unsorted/Datamodel Requirements.md",
+    "00 - Unsorted/Use Cases that need to be covered.md",
+    "00 - Unsorted/Datamodel Design.md",
+    "10 - Technical Requirements/Technical Requirements.md",
+    "09 - User Experience/User Experience Requirements.md",
+    "08 - Compatibility and Interoperability/Compatibility and Interoperability.md",
+    "07 - File Management/File Management Requirements.md",
+    "06 - Transformations and Logic/Transformations and Logic Requirements.md",
+    "02 - Data Types/Data Types Requirements.md",
+    "03 - Display and Visualization/Charting and Visualization Requirements.md",
+    "03 - Display and Visualization/Display Requirements.md",
+    "04 - Workflow/Existing Workflow Engines.md",
+    "04 - Workflow/Workflow Requirements.md",
+    "05 - Cybersecurity/Cybersecurity Requirements.md",
+    "05 - Cybersecurity/Authentication.md",
     "05 - Cybersecurity/Field-Level Access Control by Group and Workflow Step.md",
+    "05 - Cybersecurity/Variant-Based Access Control (VBAC).md",
     "README.md",
-    "03 - Display and Visualization/1 - Display Requirements.md",
-    "08 - Compatibility and Interoperability/1 - Compatibility and Interoperability.md",
     "02 - Data Types Requirements.md"
   ]
 }

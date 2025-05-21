@@ -1,4 +1,4 @@
-- The system must provide the capability to control access at field-level based on worflow step, group/role, field
+- The system must provide the capability to control access at field-level based on workflow step, group/role, field
 - The system must provide the capability to control the flow of the workflow as per the principals of Role-Based Access Control
 - The system must provide the capability to control access to records as per the principals of Variant-Based Access Control
 - The system must allow the user to create his own sheets
@@ -10,7 +10,7 @@
 	- Audit logs must cover all operations on the system (Read, Write, Delete)
 	- All Operations must be provided at the lowest level possible (field-level)
 
-- For sensetive fields shown as part of a long register, read operations cannot be effectively tracked
+- For sensitive fields shown as part of a long register, read operations cannot be effectively tracked
 	- a Solution here is to set the value of the field invisible
 		- Users can un-hide the value of each cell separately (generating an audit log item)
 
