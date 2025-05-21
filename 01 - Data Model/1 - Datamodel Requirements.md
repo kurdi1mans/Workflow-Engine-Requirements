@@ -3,16 +3,17 @@
 		- How will dataviews deal with name changes??
 
 
-
-- Versions and Drafts
+- Record Versioning
 	- The system must provide versioning for records
 	- This versioning capability must be tied to the auditing capability.
+
+- Draft Records and Draft changes
+	- Draft Records (to be created)
+	- Draft Changes
 
 - The workflow engine must keep track of the history of Workflow Action, Update, Read operations done on a record.
 - The workflow engine must provide an audit log for records that include read, write, and delete operations at field-level for the records.
 	- This is also part of the versioning capability.
-
-
 
 
 - A point that is yet to be addressed in the design is the fact that different organizations (think Offshore Projects vs Onshore Projects in a Giant Oil Company) might requires slightly different fields for the same Process.
@@ -29,6 +30,9 @@
 - The system must allow for merging records in the same register/sheets
 - The system must allow for merging registers/sheets
 	- This is necessary as you might need multiple registers/sheets to model the as-is business of diffferent organizations. Then, you might need to merge these registers/sheets (as part of the standardization process) according to the to-be business model.
+
+- The system must allow for splitting registers/sheets
+
 - The system must allow for cloning records
 - The system must provide drag-fill functionality for cells
 

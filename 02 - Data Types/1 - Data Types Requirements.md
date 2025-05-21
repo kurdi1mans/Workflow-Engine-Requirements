@@ -7,6 +7,7 @@
 	- Auto Number
 	- Link (references another sheet)
 		- Can have multiple references
+		- Can reference multiple sources (picker from different sheets)
 	- Simple Dropdown
 		- this is actually a link
 		- should it be a live-link or some other type??
