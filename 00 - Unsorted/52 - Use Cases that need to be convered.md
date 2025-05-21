@@ -1,0 +1,77 @@
+- Zoho Desk like
+	- email integration
+	- end user portal
+- Schedule Submittal Solution
+	- Automatic upload of schedules to P6
+	- Automatic checking of XML submittals to verify compliance with Schedule and Quality standards
+		- Schedule Comparison Reports
+		- Technical Validation of the schedules
+- PAF Solution
+	- Variant-Based Access control
+	- Variant-Based Flow control
+	- Custom Prints
+	- Third-Party Digital Signature Integration
+	- Also, Digital Signature capability is needed in general
+	- Automatic reassignement if employee is on leave
+	- Automatic escalation if duration is exceeded
+	- Restrictions on Custom Print access (must not be editable)
+	- Dynamic Workflow Paths (approval paths changes based on record type or RPO)
+	- Automatic unlocking for tasks held by users with no action
+- Scheduling Solution (P6 like)
+	- capture activities
+	- variant-based access control
+	- automatic quality checking
+	- resource assignment
+	- calendars
+	- resource-leveling
+	- critical path analysis
+	- resource loading
+	- baselines
+	- simulation and what-if scenarios
+	- progress tracking
+	- approval workflows for baselines and updates
+	- quality Reports
+	- comparison reports
+- Murasalat (Correspondence Solution)
+	- Federated Search with OCR capability
+	- Variant-Based Access control
+	- extension requests for the deadline
+	- Digital Signature
+	- Escalations for Delays
+- Document Management System
+	- Variant-Based Access control
+	- Tag-based file System
+	- Allows external access
+		- download link with password
+		- download link with white-listed emails to be verified through sms/email codes
+		- public download links to be used for public purposes (images and files in websites, publicly available files).
+	- Integrated with Other solutions for automatic capture of files
+	- Resume upload/download for very large files sets
+	- Synchronization similar to Dropbox, Google Drive, One Drive
+	- AI/ML powered for automatic meta-data extraction
+	- Federated Search capability with Multi-language OCR Support
+	- Automatic Redaction of documents for different levels of clearance
+	- Duplicate identification
+- Risk Management Solution
+	- Risk Register
+	- Monte-Carlo Risk Simulation
+- Safety Walk-through and Incident Management Solution
+	- Mobile app access to take photos on-site
+	- Offline support allowing capture of notes in locations where internet is not available (to be sent to server once internet is made available)
+	- Dynamic questionnaire
+		- Based on initial answers, the following questions change
+- Progress Measurement Solution
+	- Mobile Access to take photos on-site.
+	- Offline support allowing capture of progress data on-site where internet is not available (to be sent to server once internet connectivity is restored)
+	- Ledger-like mechanism for progress and de-progress
+	- Integration with Schedule to reflect progress
+- Drawing Management Solution
+	- allows viewing CAD files and other related formats
+	- automatic generation of meta-data
+	- automatic conversion of 2D to 3D for the drawings
+- Digital Twin Solution
+	- ????
+- Org Hierarchy Solution
+	- ????
+- Accounting Solution
+	- ????

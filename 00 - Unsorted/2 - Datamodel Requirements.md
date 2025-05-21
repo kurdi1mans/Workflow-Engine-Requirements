@@ -21,7 +21,7 @@
 	- In general, fields might differ based on certain criteria related to Geography, Domain, Industry, ... etc.
 	- Remember the case of the 21 different departments that were struggling to standardize their processes due to sheer variance in their nature and requirements.
 	- A more specific example that I can recall is the funding mechanism for Offshore Projects.
-		- The budgeting/funding mechanism was appropration-based due to the fact that Offshore Oil-Field Projects were more of giant iterations of an operation rather than project with a unqiue scope. They have to be dealth with as projects due to the sheer size. However, the funding mechanism is appropriation-based rather than budget-based due to the operation-like nature of these projects.
+		- The budgeting/funding mechanism was appropriation-based due to the fact that Offshore Oil-Field Projects were more of giant iterations of an operation rather than project with a unique scope. They have to be dealt with as projects due to the sheer size. However, the funding mechanism is appropriation-based rather than budget-based due to the operation-like nature of these projects.
 	- Should these be implemented as separate processes??
 	- Should these be implemented as a single process with different field-level access control setups by an organization variant??
 
@@ -29,7 +29,7 @@
 
 - The system must allow for merging records in the same register/sheets
 - The system must allow for merging registers/sheets
-	- This is necessary as you might need multiple registers/sheets to model the as-is business of diffferent organizations. Then, you might need to merge these registers/sheets (as part of the standardization process) according to the to-be business model.
+	- This is necessary as you might need multiple registers/sheets to model the as-is business of different organizations. Then, you might need to merge these registers/sheets (as part of the standardization process) according to the to-be business model.
 
 - The system must allow for splitting registers/sheets
 

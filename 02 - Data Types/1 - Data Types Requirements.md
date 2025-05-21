@@ -54,7 +54,7 @@
 		- can be restricted to specific range
 	- Decimal
 		- number of decimal places can be specified
-		- can be restriced to specific range
+		- can be restricted to specific range
 	- Location
 	- Symbol (😂☠️⚠️⛔️🚫🔄)
 	- Image

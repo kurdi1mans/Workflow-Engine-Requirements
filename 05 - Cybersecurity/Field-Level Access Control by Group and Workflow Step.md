@@ -1,14 +1,15 @@
-
+Tags:: Cybersecurity,Access-Control,Workflow
+_________________
 - A suggested approach for field-level access control by workflow step and group/role
 	- The system must allow the user to define field-level access for each role/group by step
 		- example
 			- Role: Finance Manager
-				- field:Classification - edtiable - Step:<all>
+				- field:Classification - editable - Step:<all>
 				- field:Salary - editable - Step:Revision
 				- field:record_no - view - Step:<all>
 				- field:Job_Title - editable - Step:Revision
 			- Role: Project Manager (the requester who initiates the workflow)
-				- field:Classification - edtiable - Step:<all>
+				- field:Classification - editable - Step:<all>
 				- field:Salary -- no permission assigned (user cannot see this field or modify it)
 				- field:record_no - view - Step:<all>
 				- field:Job_Title - editable - Step:Revision
@@ -16,34 +17,34 @@
 		- example: show the same permission by step-first (still has specification by group/role)
 			- Step: Initiation
 				- Role: Finance Manager
-					- field:Classification - edtiable
+					- field:Classification - editable
 					- field:Salary - editable
 					- field:record_no - view
 					- field:Job_Title - editable
 				- Role: Project Manager
-					- field:Classification - edtiable
+					- field:Classification - editable
 					- field:Salary -- no permission assigned
 					- field:record_no - view
 					- field:Job_Title - editable
 			- Step: Revision
 				- Role: Finance Manager
-					- field:Classification - edtiable
+					- field:Classification - editable
 					- field:Salary - editable
 					- field:record_no - view
 					- field:Job_Title - editable
 				- Role: Project Manager
-					- field:Classification - edtiable
+					- field:Classification - editable
 					- field:Salary -- no permission assigned (cannot see this field or modify it)
 					- field:record_no - view
 					- field:Job_Title - editable
 		- example: set permission for step without group/role specifications (similar to the classical approach of access control at step level)
 			- Step: Initiation
-				- field:Classification - edtiable
+				- field:Classification - editable
 				- field:Salary - editable
 				- field:record_no - view
 				- field:Job_Title - editable
 			- Step: Revision
-				- field:Classification - edtiable
+				- field:Classification - editable
 				- field:Salary - editable
 				- field:record_no - view
 				- field:Job_Title - editable
