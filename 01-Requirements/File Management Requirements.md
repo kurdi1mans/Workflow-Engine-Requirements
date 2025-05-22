@@ -1,3 +1,8 @@
+---
+tags:
+  - Requirements
+  - File-Management
+---
 - The system must provide the capability to upload files
 	- The system must provide the capability to resume upload/download
 - The system must provide OCR capability to generate searchable content for files

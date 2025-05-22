@@ -1,3 +1,7 @@
+---
+tags:
+  - Requirements
+---
 - The system must provide the capability to control access at field-level based on workflow step, group/role, field
 - The system must provide the capability to control the flow of the workflow as per the principals of Role-Based Access Control
 - The system must provide the capability to control access to records as per the principals of Variant-Based Access Control
@@ -14,7 +18,7 @@
 	- a Solution here is to set the value of the field invisible
 		- Users can un-hide the value of each cell separately (generating an audit log item)
 
-- The system must provide the capability for external collaborators to create/modifiy records download/upload files.
+- The system must provide the capability for external collaborators to create/modify records download/upload files.
 	- public users (submit complaints, tickets, inquiries)
 	- password
 	- Restricted to email domain

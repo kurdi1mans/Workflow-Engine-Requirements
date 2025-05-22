@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "af3843ad5cfea79a",
+        "id": "3b4c345dc51732fa",
         "type": "tabs",
         "children": [
           {
-            "id": "0aacb527de669a84",
+            "id": "e266da71c5cbe230",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Unsorted/All Files List.md",
+                "file": "00-Organizational/All Files List.md",
                 "mode": "source",
                 "source": false
               },
@@ -40,8 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
+                "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -53,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:cooking",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -168,30 +167,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0aacb527de669a84",
+  "active": "e266da71c5cbe230",
   "lastOpenFiles": [
-    "00 - Unsorted/Random Notes.md",
-    "01 - Main/Workflow Engine Requirements.md",
-    "00 - Unsorted/All Files List.md",
-    "00 - Unsorted/Un-categorized Requirements.md",
-    "00 - Unsorted/Datamodel Requirements.md",
-    "00 - Unsorted/Use Cases that need to be covered.md",
-    "00 - Unsorted/Datamodel Design.md",
-    "10 - Technical Requirements/Technical Requirements.md",
-    "09 - User Experience/User Experience Requirements.md",
-    "08 - Compatibility and Interoperability/Compatibility and Interoperability.md",
-    "07 - File Management/File Management Requirements.md",
-    "06 - Transformations and Logic/Transformations and Logic Requirements.md",
-    "02 - Data Types/Data Types Requirements.md",
-    "03 - Display and Visualization/Charting and Visualization Requirements.md",
-    "03 - Display and Visualization/Display Requirements.md",
-    "04 - Workflow/Existing Workflow Engines.md",
-    "04 - Workflow/Workflow Requirements.md",
-    "05 - Cybersecurity/Cybersecurity Requirements.md",
-    "05 - Cybersecurity/Authentication.md",
-    "05 - Cybersecurity/Field-Level Access Control by Group and Workflow Step.md",
-    "05 - Cybersecurity/Variant-Based Access Control (VBAC).md",
+    "01-Requirements/Variant-Based Access Control (VBAC).md",
+    "00-Organizational/All Files List.md",
+    "00-Organizational/Notes on Strategy.md",
+    "01-Requirements/Authentication.md",
+    "01-Requirements/Charting and Visualization Requirements.md",
+    "01-Requirements/Workflow Engine Requirements.md",
+    "01-Requirements/Workflow Requirements.md",
     "README.md",
+    "01-Requirements/Cybersecurity Requirements.md",
+    "01-Requirements/Technical Requirements.md",
+    "01-Requirements/User Experience Requirements.md",
+    "01-Requirements/Compatibility and Interoperability.md",
+    "01-Requirements/Datamodel Requirements.md",
+    "01-Requirements/Datamodel Design.md",
+    "01-Requirements/Existing Workflow Engines.md",
+    "01-Requirements/Transformations and Logic Requirements.md",
+    "01-Requirements/File Management Requirements.md",
+    "01-Requirements/Display Requirements.md",
+    "01-Requirements/Formula Fields.md",
+    "01-Requirements/Data Types Requirements.md",
+    "01-Requirements/Un-categorized Requirements.md",
+    "01-Requirements/Use Cases that need to be covered.md",
+    "01-Requirements/Field-Level Access Control by Group and Workflow Step.md",
+    "00-Organizational",
     "02 - Data Types Requirements.md"
   ]
 }

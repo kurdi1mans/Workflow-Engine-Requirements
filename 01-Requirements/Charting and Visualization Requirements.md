@@ -1,2 +1,6 @@
+---
+tags:
+  - Requirements
+---
 - It is preferable if the Charting and Visualization capability is built as a separate library
 - The system must provide native visualization and charting capability to build dashboards and reports in the same platform.

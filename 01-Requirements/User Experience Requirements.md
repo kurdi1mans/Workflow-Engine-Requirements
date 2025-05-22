@@ -1,4 +1,7 @@
-
+---
+tags:
+  - Requirements
+---
 - The system must provide automatic translation capability with the option to revise the translated text for everything in the system.
 	- This functionality must be support by AI/ML models that can handle multiple languages.
 - The system must provide a federated search capability that searches across all records and attached files in the system.

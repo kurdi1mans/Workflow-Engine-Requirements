@@ -1,4 +1,7 @@
-
+---
+tags:
+  - OrganizationalNotes
+---
 
 ```dataview
 table without id

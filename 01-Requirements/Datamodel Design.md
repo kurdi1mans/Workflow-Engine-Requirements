@@ -1,3 +1,8 @@
+---
+tags:
+  - Design
+  - Datamodel
+---
 - Sheet // Contains all the available tables/lists/BPs/Sheets/Registers
 	- ID
 	- Name

@@ -1,3 +1,7 @@
+---
+tags:
+  - Requirements
+---
 - The library must provide functions to create/modify/delete Forms
 	- Forms must contain blocks
 	- Blocks contain fields
@@ -10,7 +14,7 @@
 - Custom Prints
 	- The system must provide the capability to create custom prints
 	- Custom prints must be built with blocks similar to forms
-	- Design of blocks must be generic and resuable
+	- Design of blocks must be generic and reusable
 	- Blocks must be dynamic as per the data it receives
 	- Custom prints must allow exporting to Excel, Word, PDF ... etc.
 

@@ -1,3 +1,9 @@
+---
+tags:
+  - Domain-Analysis
+  - Strategy
+  - OrganizationalNotes
+---
 - Zoho Desk like
 	- email integration
 	- end user portal

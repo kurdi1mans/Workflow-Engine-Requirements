@@ -1,3 +1,8 @@
+---
+tags:
+  - Strategy
+  - OrganizationalNotes
+---
 - It is obvious from the evaluation of many workflow engines that almost all of theme are built with a certain opinionated approach.
 	- This is not a bad thing, but it is a limitation.
 	- Out-Of-The-Box (OOTB) applications are provided as a preset feature that cannot be modified or extended.

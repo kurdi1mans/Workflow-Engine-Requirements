@@ -1,5 +1,10 @@
-Tags:: Cybersecurity,Access-Control,Workflow
-_________________
+---
+tags:
+  - Cybersecurity
+  - Access-Control
+  - Workflow
+---
+
 - A suggested approach for field-level access control by workflow step and group/role
 	- The system must allow the user to define field-level access for each role/group by step
 		- example

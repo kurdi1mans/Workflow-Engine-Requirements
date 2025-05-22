@@ -1,4 +1,8 @@
-
+---
+tags:
+  - Requirements
+  - Logic
+---
 - The system must provide the capability to transform data using complex logic similar to SQL
 	- This transformation mechanism must cache results as per a push-based, deltified, transactional mechanism
 	- The references to datafields must be by ID rather than name in order to allow for renaming of fields and tables.

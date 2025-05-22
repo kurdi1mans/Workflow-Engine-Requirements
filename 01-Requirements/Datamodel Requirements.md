@@ -1,19 +1,11 @@
+---
+tags:
+  - Requirements
+---
 - Fields Definition
 	- Field Names can be changed
 		- How will dataviews deal with name changes??
 
-
-- Record Versioning
-	- The system must provide versioning for records
-	- This versioning capability must be tied to the auditing capability.
-
-- Draft Records and Draft changes
-	- Draft Records (to be created)
-	- Draft Changes
-
-- The workflow engine must keep track of the history of Workflow Action, Update, Read operations done on a record.
-- The workflow engine must provide an audit log for records that include read, write, and delete operations at field-level for the records.
-	- This is also part of the versioning capability.
 
 
 - A point that is yet to be addressed in the design is the fact that different organizations (think Offshore Projects vs Onshore Projects in a Giant Oil Company) might requires slightly different fields for the same Process.
