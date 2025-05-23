@@ -1,0 +1,32 @@
+Tags:: [[Requirements]],[[Datamodel]]
+_________________
+- Sheet // Contains all the available tables/lists/BPs/Sheets/Registers
+	- ID
+	- Name
+- Data_Type
+	- ID
+	- Name
+- Field //
+	- Field_ID (PK)
+	- Name
+	- Data_Type_ID (FK)
+- Link_Field
+	- Link_Field_ID (PK) // same as the field ID
+	- Source_Sheet_ID (FK)
+	- Type // Live, Dead-On-Arrival, Dead-By-Condition
+	- Conditions ??
+- Sheet-Field
+	- Sheet_Field_ID (PK)
+	- Sheet_ID (FK)
+	- Field_ID (FK) // a field can be used in multiple sheets
+- Record
+	- Record_ID (PK)
+- Record_Value
+	- Record_Value_ID (PK)
+	- Record_ID (FK)
+	- Sheet_Field_ID (FK)
+- View
+	- SQL Dataview?? or Display View??
+- Workflow
+	- Workflow_ID
+	- Sheet_ID

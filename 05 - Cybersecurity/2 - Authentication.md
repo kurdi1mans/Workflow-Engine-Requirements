@@ -1,1 +1,0 @@
-- The system must provide Single-Sign-On capability.
