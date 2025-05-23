@@ -4,16 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "3b4c345dc51732fa",
+        "id": "11d6fa3d61ac91e4",
         "type": "tabs",
         "children": [
           {
-            "id": "e266da71c5cbe230",
+            "id": "7bf2de3f100dd876",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-Organizational-Notes/All Files List.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "All Files List"
+            }
+          },
+          {
+            "id": "d376d7534e35d409",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Organizational/All Files List.md",
+                "file": "00-Organizational-Notes/All Files List.md",
                 "mode": "source",
                 "source": false
               },
@@ -21,7 +37,8 @@
               "title": "All Files List"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -40,7 +57,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -52,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:cooking",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -167,32 +185,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e266da71c5cbe230",
+  "active": "d376d7534e35d409",
   "lastOpenFiles": [
-    "01-Requirements/Variant-Based Access Control (VBAC).md",
-    "00-Organizational/All Files List.md",
-    "00-Organizational/Notes on Strategy.md",
-    "01-Requirements/Authentication.md",
-    "01-Requirements/Charting and Visualization Requirements.md",
-    "01-Requirements/Workflow Engine Requirements.md",
-    "01-Requirements/Workflow Requirements.md",
+    "00-Organizational-Notes/Workflow Engine Requirements.md",
     "README.md",
-    "01-Requirements/Cybersecurity Requirements.md",
-    "01-Requirements/Technical Requirements.md",
-    "01-Requirements/User Experience Requirements.md",
-    "01-Requirements/Compatibility and Interoperability.md",
-    "01-Requirements/Datamodel Requirements.md",
-    "01-Requirements/Datamodel Design.md",
-    "01-Requirements/Existing Workflow Engines.md",
-    "01-Requirements/Transformations and Logic Requirements.md",
-    "01-Requirements/File Management Requirements.md",
-    "01-Requirements/Display Requirements.md",
-    "01-Requirements/Formula Fields.md",
-    "01-Requirements/Data Types Requirements.md",
-    "01-Requirements/Un-categorized Requirements.md",
-    "01-Requirements/Use Cases that need to be covered.md",
-    "01-Requirements/Field-Level Access Control by Group and Workflow Step.md",
-    "00-Organizational",
-    "02 - Data Types Requirements.md"
+    "04-Reference-Notes/Functions, Methods, etc - What is What?.md",
+    "99-Tags/Workflow.md",
+    "00-Organizational-Notes/All Files List.md",
+    "03-Requirements/Variant-Based Access Control (VBAC).md",
+    "99-Tags/Tag.md",
+    "99-Tags/Authentication.md",
+    "04-Reference-Notes",
+    "03-Requirements/Display Requirements.md",
+    "01-Domain-Analysis/Use Cases that need to be covered.md",
+    "03-Requirements/Field-Level Access Control by Group and Workflow Step.md",
+    "02-Un-Categorized",
+    "03-Requirements/Technical Requirements.md",
+    "99-Tags/File-Management.md",
+    "99-Tags/Cybersecurity.md",
+    "99-Tags/Access-Control.md",
+    "01-Domain-Analysis/Existing Workflow Engines.md",
+    "00-Organizational-Notes/Notes on Strategy.md",
+    "99-Tags/Visualization.md",
+    "99-Tags/Un-Categorized.md",
+    "99-Tags/Strategy.md",
+    "99-Tags/Requirements.md",
+    "99-Tags/Organizational-Notes.md",
+    "99-Tags/Main-Page.md",
+    "99-Tags/Logic.md",
+    "99-Tags/Domain-Analysis.md",
+    "99-Tags/Display.md",
+    "99-Tags",
+    "01-Domain-Analysis",
+    "03 - Display and Visualization",
+    "03-Requirements",
+    "00-Organizational-Notes"
   ]
 }

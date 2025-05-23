@@ -1,0 +1,28 @@
+Tags:: [[Reference-Note]]
+_________________
+- Pure Functions
+	- **Pure Functions**:
+	    - Always produce the same output for the same input.    
+	    - Do not have side effects (e.g., modifying a global variable or I/O).
+	- **Immutability**:
+	    - Data is never modified. Instead, new data structures are created when changes are needed.
+	- **First-Class and Higher-Order Functions**:
+	    - Functions are treated as values: they can be passed as arguments, returned from other functions, and assigned to variables.
+	- **Function Composition**:
+	    - Small functions are combined to build more complex operations.
+	- **Recursion**:
+	    - Used instead of loops for iteration.
+	- **Referential Transparency**:
+	    - Expressions can be replaced with their values without changing the program’s behavior.
+- Our Standard for functions
+	- All inputs must be passed in parameters
+		- Allows for better testing
+		- Database reads?
+	- No input shall be mutated
+		- No side effects
+	- The State inside the function must never be accessible from outside the function and must never be shared across the runs of the same function
+		- The state of the function is born with the run of the function and dies with it.
+		- The state of the function is never shared with anything (including another run of the same function that is taking place in parallel or in the future).
+		- Functions must be stateless to the outside world.
+	- Database read/write operations are allowed
+	- Recursion must be avoided as much as possible due to the fact that it can cause stack overflow errors
