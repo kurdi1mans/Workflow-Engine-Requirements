@@ -10,3 +10,10 @@ _________________
 - The system must be designed and built with the ideals of Functional Programming in mind.
 - The system must be designed in a way that avoids Object Oriented Programming as much as possible.
 - A guiding principal for the code is detailed in the note [[Functions, Methods, etc - What is What?]].
+
+
+- The system must be designed to allow for offline operations
+	- This is required to cover scenarios where operations are required in areas where internet availability is intermittent or non-existent
+
+- The system must be designed to allow for bi-directional mirroring between multiple instances of itself
+

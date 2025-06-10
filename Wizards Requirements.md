@@ -1,0 +1,5 @@
+Tags:: [[Requirements]],[[Wizards]]
+_________________
+- The system must provide the capability to create wizards
+	- This is needed for a guided record creation
+	- This is needed to guide action and updates on records at a workflow step

@@ -55,10 +55,9 @@ from ""
 where 
 contains(Tags, [[Requirements]])
 and !(contains(Tags, [[Cybersecurity]]) or contains(Tags,[[Access-Control]]))
-and !contains(Tages, [[Un-Categorized]])
+and !contains(Tags, [[Un-Categorized]])
 sort Order
 ```
-
 
 ## All files
 ```dataview
